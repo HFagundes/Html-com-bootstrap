@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+}
+
+.menu-superior {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.topo-site {
+  padding: 60px 20px;
+}
+
+.titulo-principal {
+  margin-bottom: 15px;
+}
+
+.area-servicos .card-servico {
+  transition: transform 0.3s;
+}
+
+.area-servicos .card-servico:hover {
+  transform: translateY(-5px);
+}
+
+.area-contato .form-contato input,
+.area-contato .form-contato textarea {
+  border-radius: 6px;
+}
+
+.rodape {
+  margin-top: 30px;
+}
